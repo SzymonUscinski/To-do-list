@@ -1,0 +1,11 @@
+.section__header {
+    background-color: white;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.section__body {
+    background-color: white;
+    padding: 15px;
+}
