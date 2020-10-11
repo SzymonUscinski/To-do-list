@@ -1,0 +1,31 @@
+.button__taskDone {
+    background-color: hsl(120, 80%, 43%);
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: 0;
+}
+
+.button__taskDone:hover {
+    background-color: hsl(120, 80%, 48%);
+}
+
+.button__taskDone:active {
+    background-color: hsl(120, 80%, 55%);
+}
+
+.button__removeTask {
+    background-color: hsl(0, 95%, 43%);
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: 0;
+}
+
+.button__removeTask:hover {
+    background-color: hsl(0, 86%, 50%);
+}
+
+.button__removeTask:active {
+    background-color: hsl(0, 86%, 65%);
+}

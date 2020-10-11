@@ -49,8 +49,8 @@
             <li
                ${task.done ? " style=\"text-decoration: line-through\" " : ""}
             >
-            <button class="js-done">✓</button>
-            <button class="js-remove">🗑</button>
+            <button class="button__taskDone js-done">${task.done ? "✓" : ""}</button>
+            <button class="button__removeTask js-remove">🗑</button>
                ${task.content}
             </li>
             `;
