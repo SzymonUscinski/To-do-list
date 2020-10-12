@@ -1,0 +1,23 @@
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: space-between;
+    margin-bottom: 20px;
+}
+
+.list__content {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.list__content--done {
+    text-decoration: line-through;
+}
