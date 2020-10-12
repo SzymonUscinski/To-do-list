@@ -1,9 +1,10 @@
 .button__taskDone {
     background-color: hsl(120, 80%, 43%);
-    width: 30px;
+    min-width: 30px;
     height: 30px;
     border: none;
     outline: 0;
+    order: -1;
 }
 
 .button__taskDone:hover {
@@ -16,10 +17,11 @@
 
 .button__removeTask {
     background-color: hsl(0, 95%, 43%);
-    width: 30px;
+    min-width: 30px;
     height: 30px;
     border: none;
     outline: 0;
+    order: 1;
 }
 
 .button__removeTask:hover {
