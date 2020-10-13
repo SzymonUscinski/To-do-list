@@ -1,16 +1,21 @@
 .list {
     list-style-type: none;
     padding: 0;
-    margin: 0;
 }
 
 .list__item {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
     align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+    align-content: space-between;
+    margin-bottom: 20px;
+}
+
+.list__content {
+    flex-grow: 1;
+    margin-left: 10px;
 }
 
 .list__content--done {
