@@ -15,7 +15,6 @@
 
 .list__content {
     flex-grow: 1;
-    margin: 10px 10px;
 }
 
 .list__content--done {

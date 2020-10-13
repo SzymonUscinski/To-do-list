@@ -5,6 +5,7 @@
     border: none;
     outline: 0;
     order: -1;
+    margin-right: 10px;
 }
 
 .button__taskDone:hover {
@@ -22,6 +23,7 @@
     border: none;
     outline: 0;
     order: 1;
+    margin-left: 10px;
 }
 
 .button__removeTask:hover {
