@@ -5,6 +5,7 @@
     border: none;
     outline: 0;
     order: -1;
+    transition: 1s;
 }
 
 .button__taskDone:hover {
@@ -22,10 +23,11 @@
     border: none;
     outline: 0;
     order: 1;
+    transition: 1s;
 }
 
 .button__removeTask:hover {
-    background-color: hsl(0, 86%, 50%);
+    background-color: hsl(0, 86%, 55%);
 }
 
 .button__removeTask:active {
