@@ -1,21 +1,15 @@
 .list {
     list-style-type: none;
     padding: 0;
-    border-bottom: 1px solid #ddd;
 }
 
 .list__item {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 50px;
+    grid-gap: 10px;
     align-items: center;
-    align-content: space-between;
-    margin-bottom: 20px;
-}
-
-.list__content {
-    flex-grow: 1;
+    border-bottom: 1px solid #ddd;
 }
 
 .list__content--done {
