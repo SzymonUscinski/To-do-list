@@ -3,6 +3,20 @@
     padding: 20px;
     margin-top: 25px;
     margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.section__buttons {
+    align-self: center;
+}
+
+@media (max-width: 767px) {
+    .section__buttons {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 .section__body {
