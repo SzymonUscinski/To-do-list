@@ -33,3 +33,23 @@
 .button__removeTask:active {
     background-color: hsl(0, 86%, 65%);
 }
+
+.button__list {
+    background-color: white;
+    color: teal;
+    border: none;
+    outline: 0;
+    transition: 1s;
+}
+
+.button__list:hover {
+    color: hsl(180, 100%, 35%);
+}
+
+.button__list:active {
+    color: hsl(180, 100%, 40%);
+}
+
+.button__list:disabled {
+    color: #dddd;
+}
