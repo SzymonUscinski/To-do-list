@@ -1,22 +1,26 @@
 .section__header {
     background-color: white;
-    padding: 20px;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 5px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.section__buttons {
-    align-self: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media (max-width: 767px) {
-    .section__buttons {
-        display: flex;
-        flex-direction: row;
+    .section__header {
+        grid-template-columns: 1fr;
     }
+}
+
+.section__title {
+    margin-left: 20px;
+}
+
+.section__buttons {
+    flex-basis: 100%;
+    margin-right: 20px;
 }
 
 .section__body {
