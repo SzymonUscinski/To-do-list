@@ -53,3 +53,10 @@
 .button__list:disabled {
     color: #dddd;
 }
+
+@media (max-width: 767px) {
+    .button__list {
+        flex-basis: 100%;
+        margin: 10px;
+    }
+}
