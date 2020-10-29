@@ -21,7 +21,7 @@
             ...tasks.slice(index + 1)
         ];
 
-        renderTasks();
+        render();
     };
 
     const toggleTaskDone = (index) => {
@@ -31,7 +31,7 @@
             ...tasks.slice(index + 1)
         ];
 
-        renderTasks();
+        render();
     };
 
     const renderTasks = () => {
@@ -50,8 +50,6 @@
         }
 
         document.querySelector(".js-tasks").innerHTML = htmlString;
-
-        bindEvents();
     }
 
     const renderButtons = () => {
